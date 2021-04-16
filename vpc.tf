@@ -5,7 +5,7 @@ resource "aws_vpc" "main" {
   enable_dns_support   = true
 
   tags = {
-    Name        = atlantis-test
+    Name        = "atlantis-test"
     Description = "Managed by Terraform"
   }
 }
